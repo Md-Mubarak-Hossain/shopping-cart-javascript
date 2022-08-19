@@ -34,7 +34,7 @@ function subTotal() {
 }
 
 function tax() {
-    const tax = subTotal() * .0123;
+    const tax = subTotal() * .123;
     const taxFixed = parseFloat(tax.toFixed(2));
     const taxField = document.getElementById('tax');
     taxField.innerText = taxFixed;
